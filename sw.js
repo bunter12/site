@@ -23,7 +23,7 @@ self.addEventListener('activate',event=>{
 
 self.addEventListener('fetch',event=>{
     console.log('fetch',event.request)
-    event.respondWidth(cacheFirst(event.request))
+    event.respondWith(cacheFirst(event.request))
 })
 
 async function cacheFirst(request){
