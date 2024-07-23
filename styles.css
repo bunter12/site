@@ -1,0 +1,96 @@
+/* Основные стили */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Стили для шапки */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    border-bottom: #e8491d 3px solid;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Стили для навигации */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #35424a;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background: #e8491d;
+    transform: scale(1.1);
+}
+
+/* Стили для секций */
+section {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #e8491d;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.company-info, .product-info {
+    text-align: left;
+}
+
+/* Стили для списков */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 5px 0;
+    font-size: 1.1em;
+}
+
+/* Стили для подвала */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}

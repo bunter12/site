@@ -1,0 +1,16 @@
+{
+    "name": "Продажа Нефти и Газа",
+    "short_name": "Нефть и Газ",
+    "description": "Сайт по продаже нефти и газа",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#35424a",
+    "theme_color": "#e8491d",
+    "icons": [
+        {
+            "src": "logo1.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }
+    ]
+}
